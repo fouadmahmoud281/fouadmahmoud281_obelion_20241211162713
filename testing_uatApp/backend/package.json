@@ -13,12 +13,17 @@
     "dependencies": {
         "sequelize": "latest",
         "express": "latest",
+        "csv-parser": "latest",
+        "winston": "latest",
         "cors": "latest",
         "mysql": "latest",
         "mysql2": "latest"
     },
     "devDependencies": {
         "sequelize": "6.6.5",
-        "eslint": "7.32.0"
+        "eslint": "7.32.0",
+        "express": "latest",
+        "csv-parser": "3.0.0",
+        "winston": "3.3.3"
     }
 }
