@@ -1,0 +1,85 @@
+.data-exchange-initiate {
+  background-color: #336699;
+  color: #339966;
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.data-exchange-initiate .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2b547e;
+}
+
+.data-exchange-initiate .logo img {
+  height: 40px;
+}
+
+.data-exchange-initiate .navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.data-exchange-initiate .navigation li {
+  color: #993366;
+  cursor: pointer;
+}
+
+.data-exchange-initiate .main-content {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.data-exchange-initiate .data-exchange-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.data-exchange-initiate .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.data-exchange-initiate .form-group label {
+  font-size: 1.2em;
+  color: #993366;
+}
+
+.data-exchange-initiate .form-group input {
+  padding: 10px;
+  border: 1px solid #339966;
+  border-radius: 5px;
+  background-color: #2b547e;
+  color: #339966;
+}
+
+.data-exchange-initiate .initiate-button {
+  padding: 10px 20px;
+  background-color: #339966;
+  color: #ffffff;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.data-exchange-initiate .additional-links a {
+  color: #FFCC00;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.data-exchange-initiate .footer {
+  background-color: #2b547e;
+  color: #993366;
+  text-align: center;
+  padding: 10px;
+}

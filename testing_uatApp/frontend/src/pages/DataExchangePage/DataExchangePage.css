@@ -1,0 +1,85 @@
+.data-exchange-page {
+  background-color: #336699;
+  color: #339966;
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.data-exchange-page .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2b547e;
+}
+
+.data-exchange-page .logo {
+  height: 40px;
+}
+
+.data-exchange-page .navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.data-exchange-page .navigation li {
+  color: #993366;
+  cursor: pointer;
+}
+
+.data-exchange-page .main-content {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.data-exchange-page .exchange-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.data-exchange-page .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.data-exchange-page .form-group label {
+  font-size: 1.2em;
+  color: #993366;
+}
+
+.data-exchange-page .form-group input {
+  padding: 10px;
+  border: 1px solid #339966;
+  border-radius: 5px;
+  background-color: #2b547e;
+  color: #339966;
+}
+
+.data-exchange-page .initiate-button {
+  padding: 10px 20px;
+  background-color: #339966;
+  color: #ffffff;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.data-exchange-page .additional-links a {
+  color: #FFCC00;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.data-exchange-page .footer {
+  background-color: #2b547e;
+  color: #993366;
+  text-align: center;
+  padding: 10px;
+}
