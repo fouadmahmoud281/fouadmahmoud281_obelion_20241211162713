@@ -1,0 +1,78 @@
+.order-book-page {
+  background-color: #336699;
+  color: #FFFFFF;
+  font-family: 'Dancing Script', cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-book-page .header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.order-book-page .logo {
+  height: 50px;
+  margin-right: auto;
+}
+
+.order-book-page .navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.order-book-page .nav-link {
+  color: #993366;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.order-book-page .main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-book-page .upload-section {
+  background-color: #339966;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.order-book-page .upload-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.order-book-page .file-input {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.order-book-page .upload-button {
+  background-color: #FFCC00;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.order-book-page .footer {
+  background-color: #336699;
+  padding: 20px;
+  text-align: center;
+}
+
+.order-book-page .footer-link {
+  color: #993366;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}

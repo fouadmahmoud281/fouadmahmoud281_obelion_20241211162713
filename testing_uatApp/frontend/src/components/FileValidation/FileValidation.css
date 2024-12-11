@@ -1,0 +1,111 @@
+.file-validation-page {
+  background-color: #222;
+  color: #993366;
+  font-family: 'Dancing Script', cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.file-validation-page .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.file-validation-page .logo {
+  max-height: 50px;
+}
+
+.file-validation-page .nav-tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.file-validation-page .tab {
+  color: #336699;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.file-validation-page .tab.active {
+  color: #FFCC00;
+}
+
+.file-validation-page .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-validation-page .file-validation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-validation-page .file-label {
+  margin-bottom: 10px;
+}
+
+.file-validation-page input[type="file"] {
+  border: 2px solid #339966;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.file-validation-page button {
+  background-color: #336699;
+  color: #FFCC00;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.file-validation-page button:hover {
+  background-color: #285480;
+}
+
+.file-validation-page .validation-message {
+  margin-top: 15px;
+  color: #993366;
+}
+
+.file-validation-page .additional-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.file-validation-page .additional-links a {
+  color: #FFCC00;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+
+.file-validation-page .additional-links a:hover {
+  color: #e6b800;
+}
+
+.file-validation-page .footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.file-validation-page .footer p {
+  color: #FFCC00;
+}
