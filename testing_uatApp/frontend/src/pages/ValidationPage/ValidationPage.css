@@ -1,0 +1,108 @@
+.validation-page {
+  background-color: #222;
+  color: #993366;
+  font-family: 'Dancing Script', cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.validation-page .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.validation-page .logo img {
+  max-height: 50px;
+}
+
+.validation-page .navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.validation-page .navigation li {
+  margin: 0 15px;
+  color: #336699;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.validation-page .navigation li.active-tab {
+  color: #FFCC00;
+}
+
+.validation-page .main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.validation-page .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.validation-page input[type="file"] {
+  border: 2px solid #339966;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.validation-page .validate-button {
+  background-color: #336699;
+  color: #FFCC00;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.validation-page .validate-button:hover {
+  background-color: #285480;
+}
+
+.validation-page .validation-message {
+  margin-top: 15px;
+  color: #993366;
+}
+
+.validation-page .additional-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.validation-page .additional-links a {
+  color: #FFCC00;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+
+.validation-page .additional-links a:hover {
+  color: #e6b800;
+}
+
+.validation-page .footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.validation-page .footer p,
+.validation-page .footer a {
+  color: #FFCC00;
+}
